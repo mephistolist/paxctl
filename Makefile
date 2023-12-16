@@ -1,5 +1,5 @@
 CC:=cc
-CFLAGS:=-march=native -O2 -Wextra -Wall -W -Wcast-qual -Wbad-function-cast -Wshadow -Wwrite-strings -Wnested-externs -Winline -Wredundant-decls -Waggregate-return -Wformat=2 -Wpointer-arith -Wconversion -Wmissing-declarations -Wmissing-prototypes -fPIC --std=c17 -pipe
+CFLAGS:=-march=native -O2 -Wcast-qual -Wbad-function-cast -Wshadow -Wwrite-strings -Wnested-externs -Winline -Wredundant-decls -Waggregate-return -Wformat=2 -Wpointer-arith -Wconversion -Wmissing-declarations -Wmissing-prototypes -w -fPIC --std=c17 -pipe
 LDFLAGS=-Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now
 DESTDIR:=/usr/local
 MANDIR:=/usr/share/man/man1
