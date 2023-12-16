@@ -1,5 +1,5 @@
 # paxctl
-Converted paxctl to work on BSD.
+Converted paxctl to work on BSD environments.
 
 1. What it is
 
