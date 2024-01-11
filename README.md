@@ -12,9 +12,12 @@ PaX and paxctl work on ELF executables, both of the standard ET_EXEC and the new
 Simply issue 'make' then 'make install'. If the defaults do not suit your needs, change them in the Makefile.
 
 3. References
-     
-PaX - http://pax.grsecurity.net<br/>
-Paxctl-on-BSD - https://github.com/mephistolist/paxctl-on-BSD
+
+```
+PaX - http://pax.grsecurity.net
+Paxctl on BSD - https://github.com/mephistolist/paxctl
+Paxit on BSD - https://github.com/mephistolist/paxit-bsd
+```
 
 4. Usage
 
